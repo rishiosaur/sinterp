@@ -1,0 +1,19 @@
+{
+  "name": "sinterp",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/rishiosaur/sinterp.git",
+  "author": "Rishi Kothari <itsrishikothari@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@types/chalk": "^2.2.0",
+    "@types/node": "^14.11.2",
+    "chalk": "^4.1.0",
+    "nodemon": "^2.0.4",
+    "ts-node": "^9.0.0",
+    "typescript": "^4.0.3"
+  },
+  "scripts": {
+    "r": "ts-node src/index.ts"
+  }
+}
